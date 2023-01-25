@@ -1,11 +1,9 @@
-document.querysector("button").addeventlinstener("click",sample())
-
-function sample() {
+const btn = document.querySelector("button")
 
 
-    alert("こののののおの！")
+document.addEventListener("on-click", test())
+
+
+function test() {
+  alert("lsah;lhlaflgias;oi")
 }
-
-
-
-
