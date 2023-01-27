@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="./index.js" defer></script>
+  <!-- <script src="./index.js" defer></script> -->
 </head>
 
 <body>
@@ -16,18 +16,43 @@
     <div class="hello">
       <h2>Hello!</h2>
       <p></p>
-
     </div>
+    <!-- 
+    <h2 id="h2">こんにちは</h2> -->
+    <h3 id="h3">始めまして</h3>
 
     <div></div>
-    <script>
+    <!-- <script>
       let element = document.querySelector("div");
       element.innerHTML = "<h2>Hello World</h2>"
 
+    </script> -->
+
+
+
+    <script>
+      let text = "<b>テキスト</b>"
+      let text1 = "ありがとう"
+      let text4 = "こんばんわ"
+
+
+      // let text2 = document.getElementById("h2");
+      // text2.textContent = text1
+      let text3 = document.getElementById("h3");
+      text3.append(document.createTextNode(text1))
+   // 追加したい箇所.append(document.createTextNode(追加したい要素))
+
+
+  // node.prepend()：ノードの先頭に追加
+  // node.append()：ノードの末尾に追加
+  // node.before()：ノードの前に追加
+  // node.after()：ノードの後に追加
+
+
     </script>
 
-  </body>
 
+  </body>
 
 
 
