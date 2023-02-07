@@ -1,0 +1,7 @@
+.sample1:hover {transition: 1.5s;}
+
+
+#sample2 {
+    position: relative;
+    top: 0;
+}
